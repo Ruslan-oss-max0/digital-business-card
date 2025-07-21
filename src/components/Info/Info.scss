@@ -1,7 +1,9 @@
 .header {
+  width: 317px;
+  margin-bottom: 33px;
+
   &__img {
-    margin-bottom: 33px;
-    width: 317px;
+    width: 100%;
     border-radius: 10px 10px 0 0;
     display: block;
   }
