@@ -1,6 +1,6 @@
 .header {
   width: 317px;
-  margin-bottom: 33px;
+  background-color: #1a1b21;
 
   &__img {
     width: 100%;
@@ -48,9 +48,11 @@
   gap: 8px;
   font-size: 14px;
   font-weight: 500;
+  margin-bottom: 30px;
 }
 
 .icon-button--mail {
+  border: 1px solid #d1d5db;
   color: #374151;
 }
 

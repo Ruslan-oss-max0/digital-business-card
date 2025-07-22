@@ -1,0 +1,35 @@
+.footer {
+  background-color: #161619;
+  height: 64px;
+  border-radius: 0 0 10px 10px;
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 24px;
+  }
+}
+
+.icon {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.twitter-icon {
+  background-image: url("/images/icons/twitter-icon.png");
+}
+
+.facebook-icon {
+  background-image: url("/images/icons/facebook-icon.png");
+}
+
+.instagram-icon {
+  background-image: url("/images/icons/instagram-icon.png");
+}
+
+.github-icon {
+  background-image: url("/images/icons/github-icon.png");
+}
