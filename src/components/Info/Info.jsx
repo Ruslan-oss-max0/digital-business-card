@@ -1,13 +1,10 @@
 import "./Info.scss";
+import Logo from "/images/me-logo.png";
 
 export const Info = () => {
   return (
     <header className="header">
-      <img
-        className="header__img"
-        src="/images/me-logo.png"
-        alt="Ruslan image"
-      />
+      <img className="header__img" src={Logo} alt="Ruslan image" />
 
       <h1 className="header__title">Ruslan Kryzhanskiy</h1>
       <p className="header__description">Fullstack Developer</p>
